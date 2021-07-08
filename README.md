@@ -52,10 +52,6 @@ $ python manage.py loaddata movies/fixtures/movies.json
 
 ![image-20210528010840515](README.assets/image-20210528010840515.png)
 
-**회원가입 로그인**
-
-<video src="../../Users/yebeen/Documents/Bandicam/bandicam 2021-07-07 17-47-06-600.mp4"></video>
-
 
 
 **B. 영화 정보**
@@ -211,6 +207,69 @@ Django는 AWS로 Vue.js는 Netlify를 이용하여 배포하였습니다.
  2차 제작:6/7-6/16
 
 배포:6/23
+
+## :round_pushpin: 배포 후 최종 화면 구현 :rocket:
+
+**회원가입**
+
+* 아이디
+* 나이
+* 비밀번호
+* 비밀번호 확인
+
+![회원가입](../../Users/yebeen/Desktop/배포파일/회원가입.gif)
+
+**로그인**
+
+![로그인](README.assets/로그인.gif)
+
+**메인화면, 검색창 자동완성**
+
+![메인, 검색](README.assets/메인, 검색.gif)
+
+**Total movie 클릭**
+
+![토탈무비 버튼클릭](README.assets/토탈무비 버튼클릭.gif)
+
+**리뷰 CRUD**
+
+* 수정, 삭제는 본인 것만 가능
+
+![리뷰 CRUD](README.assets/리뷰 CRUD.gif)
+
+**영화 추천**
+
+* 랜덤 30 개,
+* 공통으로 좋아요한 다른 유저가 있을 때 그 유저가 좋아요 누른 영화 추천,
+* 평점 높은영화 추천
+
+![추천](README.assets/추천.gif)
+
+**커뮤니티 CRUD**
+
+* 수정, 삭제는 본인 것만 가능
+
+![커뮤니티](README.assets/커뮤니티.gif)
+
+**커뮤니티 댓글 생성,삭제**
+
+* 수정, 삭제는 본인 것만 가능
+
+![커뮤니티 댓글](README.assets/커뮤니티 댓글.gif)
+
+**프로필**
+
+* 좋아요,보고싶어요,싫어요한 영화 Glide로 
+* 커뮤니티에 남긴 글 제목
+* 리뷰남긴 목록
+
+![프로필](README.assets/프로필.gif)
+
+**로그아웃**
+
+* 로그아웃시 로그인화면으로 바뀜
+
+![로그아웃](README.assets/로그아웃.gif)
 
 ## 문제가 있었던 점 :fist_oncoming:
 

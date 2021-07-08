@@ -208,7 +208,7 @@ Django는 AWS로 Vue.js는 Netlify를 이용하여 배포하였습니다.
 
 배포:6/23
 
-## :round_pushpin: 배포 후 최종 화면 구현 :rocket:
+## 배포 후 최종 화면 구현  :rocket::rocket:
 
 **회원가입**
 
@@ -217,7 +217,7 @@ Django는 AWS로 Vue.js는 Netlify를 이용하여 배포하였습니다.
 * 비밀번호
 * 비밀번호 확인
 
-![회원가입](../../Users/yebeen/Desktop/배포파일/회원가입.gif)
+![회원가입](README.assets/회원가입.gif)
 
 **로그인**
 
@@ -239,8 +239,8 @@ Django는 AWS로 Vue.js는 Netlify를 이용하여 배포하였습니다.
 
 **영화 추천**
 
-* 랜덤 30 개,
-* 공통으로 좋아요한 다른 유저가 있을 때 그 유저가 좋아요 누른 영화 추천,
+* 랜덤 30 개
+* 공통으로 좋아요한 다른 유저가 있을 때 그 유저가 좋아요 누른 영화 추천
 * 평점 높은영화 추천
 
 ![추천](README.assets/추천.gif)

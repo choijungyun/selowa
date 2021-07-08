@@ -2,7 +2,7 @@
 
 # [SELOWA] 영화 추천 서비스 :movie_camera:
 
-# 광주 2반 권예빈, 최정윤
+# 권예빈, 최정윤
 
 ## 로고,서비스이름
 
@@ -63,19 +63,9 @@ $ python manage.py loaddata movies/fixtures/genres.json
 $ python manage.py loaddata movies/fixtures/movies.json
 ```
 
-* 모든 로그인 된 유저는 영화에 대한 평점 등록 / 수정 / 삭제 등을 할 수 있 어야 합니다.
-
-> custom-modal만들어서 해결
-
-![리뷰](README.assets/리뷰.gif)
-
 
 
 **C. 추천 알고리즘**
-
-![bandicam 2021-05-30 23-46-13-789](https://user-images.githubusercontent.com/25261332/120108779-a231cc00-c1a1-11eb-80fe-75f3337f0b6b.gif)
-
-
 
 * 랜덤 추천
 
@@ -186,18 +176,6 @@ favorite_movies = Movie.objects.all().order_by('-vote_average')[:10]
 
 
 
-
-
-
-
-**D. 커뮤니티**
-
-
-
-![bandicam 2021-05-28 03-11-00-871](https://user-images.githubusercontent.com/25261332/119915116-bce72380-bf9c-11eb-8554-078c3564c3c3.gif)
-
-
-
 ## 날짜 :calendar:
 
 Django는 AWS로 Vue.js는 Netlify를 이용하여 배포하였습니다.
@@ -300,7 +278,8 @@ Django는 AWS로 Vue.js는 Netlify를 이용하여 배포하였습니다.
 `.env.local`
 
 ```
-VUE_APP_SERVER_URL=http://127.0.0.1:8000
+VUE_APP_SERVER_URL=https://selowa.net
+VUE_APP_YOUTUBE_API_KEY={유튜브 API키}
 ```
 
 ## 느낀점 :slightly_smiling_face:
@@ -319,3 +298,4 @@ VUE_APP_SERVER_URL=http://127.0.0.1:8000
 
 **정윤**: 나야말로 예빈이랑 해서 좋았다!! 프로젝트를 하면서 어려운 점도 많았지만 ! 예빈이랑 함께 풀어가다가 실행되는 것도 많았다!!! 둘다 헤매다가 동작될때는 둘이 좋아했다!! ㅋㅋㅋ 짧은 기간이라서 구현 못한부분이 많고 배포도 못해봐서 아쉽다ㅠ 그리고 데이터모델링은 어려웠다... 중간이 몇번이고 수정한 것 같은데... 처음부터 잘했으면 더 좋았을 것 같다! 이번 프로젝트로 상태코드는 외운것같다^^... 그리고 동작이 잘 안될 때는 차분히 보는게 답이라는 것도 깨달았다....ㅎㅎㅎ... 한학기동안 이론을 배웠는데 이렇게 실생활에 적용해보니깐 이론보다는 재밌었다! 어렵기는 했지만.... 이 프로젝트도 더 발전시켜서 배포까지 하자~~!!!! 빙빙쓰~!!!
 
++AWS의 Cloud9과 netlify를 통해서 배로까지 완료했다!

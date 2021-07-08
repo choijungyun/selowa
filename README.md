@@ -203,17 +203,19 @@ Django는 AWS로 Vue.js는 Netlify를 이용하여 배포하였습니다.
 
 **메인화면, 검색창 자동완성**
 
-![메인, 검색](README.assets/메인, 검색.gif)
+![검색](README.assets/검색.gif)
+
+
 
 **Total movie 클릭**
 
-![토탈무비 버튼클릭](README.assets/토탈무비 버튼클릭.gif)
+![토탈무비](README.assets/토탈무비.gif)
 
 **리뷰 CRUD**
 
 * 수정, 삭제는 본인 것만 가능
 
-![리뷰 CRUD](README.assets/리뷰 CRUD.gif)
+![리뷰](README.assets/리뷰.gif)
 
 **영화 추천**
 
@@ -233,7 +235,7 @@ Django는 AWS로 Vue.js는 Netlify를 이용하여 배포하였습니다.
 
 * 수정, 삭제는 본인 것만 가능
 
-![커뮤니티 댓글](README.assets/커뮤니티 댓글.gif)
+![커뮤니티_댓글](README.assets/커뮤니티_댓글.gif)
 
 **프로필**
 

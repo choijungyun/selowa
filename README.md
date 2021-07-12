@@ -1,5 +1,3 @@
-# Final Project 
-
 # [SELOWA] 영화 추천 서비스 :movie_camera:
 
 # 권예빈, 최정윤
